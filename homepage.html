@@ -1,0 +1,37 @@
+<!--Now try adding a class to the form and target the form using CSS.. 
+and then add id's to the inputs and targetting the validation using the id
+
+Update: now let's add a file that will process the data. 
+For your .php file or whatever have it just spit out 
+whatever was filled out from the form.-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+	<title>Form Validation</title>
+
+   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+	 <script  type="text/javascript" src="myscripts.js" ></script>
+	
+	</head>
+
+	<body>
+     
+	<p>Welcome back, Pin!</p>
+	
+		<form  id="wrapper" class="formstyle" name="myForm" method="post" action="data.php" onsubmit="return validateForm()">
+
+		<input id="firstname" type="text" name="firstname" placeholder="First Name" required/><br>
+		<input id="lastname" type="text" name="lastname" placeholder="Last Name"/ Required><br>
+		<input id="email" type="text" name="email" placeholder="E-Mail" required/> <br>
+		<input id="password" type="password" name="password" placeholder="Password" required/> <br>
+		<input type="submit" name="submit" value="Register Now"/>
+
+		</form>
+        
+
+	</body>
+
+</html>

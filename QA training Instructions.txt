@@ -1,0 +1,42 @@
+1- imagine a form with a box where you put in your name. And then javascript selects the input field and changes its value to "Foued"
+
+2- You actually have the pieces to finish it already. I never said it has to show when you hit submit... only that javascript put your name in the field when the page loads. So if you remove the DoSubmit method... it should put your name in the input.
+
+3-So for the next step create a dropdown and then change the value on that using js
+
+4- Great that looks good. Work on the next step which is to change a value of a dropdown... also instead of using getelementbyid this time.. try to select the element by class name.
+
+5- I asked that ya select one of the options of the middle of the list.. the [0] does the first one.. can you update this with something in the middle of the list.
+
+6- Next Project: Create a form with 3 fields firstname, lastname, email Then on submit. validate that the 3 fields are not blank
+
+7- Next Let's stylize the form. Can you make the form have a border around it, and take up 100% of the browser?
+
+8-Now make the width like 300 px and add margins and padding so it doesn't touch the top or sides.
+
+9-Now try adding a class to the form and target the form using CSS.. and then add id's to the inputs and targetting the validation using the id.
+
+10- don't target the form using document.form ... target it by searching the id.
+
+11- now let's add a file that will process the data. For your .php file or whatever have it just spit out whatever was filled out from the form.
+
+12- Mmmm you need to set up apache etc to get it to work. Are you doing this on your local computer?
+Code  looks good, this time submit using post. Get should only be used when requesting data.
+13- Get your apache / php setup locally so you can run php locally and just write a simple program that echo's hello world.
+
+14- Next I want you to create a local database with a table that you will store you form fillouts.
+
+MAMP already has mysql installed, so you just need to figure out how to
+
+Create credentials for yourself
+Create a table
+Have php connect to the database and then the table
+Insert the data into the table.
+
+15- Next fetch the record from all records from your table and display them on the page.
+
+16- Next try to understand sessions for php. They allow you to preserve information between pages.
+
+
+
+

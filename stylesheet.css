@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    background: url("http://www.wallbacks.com/walls/blur-wallpaper-hd-wide.jpg");
+    background-position: center;
+    background-size: auto;
+ }
+
+p {
+    text-align: center;
+    width: auto;
+    padding: 10px;
+    font-size: 40px;
+    color:#ffffff;
+
+}
+
+.formstyle {
+    text-align:center; 
+    width: 200px; 
+    
+}
+
+#wrapper {
+
+    margin: 0 auto;
+    width: 270px;
+    padding: 200px;
+    padding-left:0;
+    padding-top: 165px;
+
+}
+        
+input {
+    border: 0;
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    font-size: 30px;
+    background-color:#1aa5d1;
+    color:#ffffff;
+    width: 520px;
+    height: 60px;
+    border-radius: 2px;
+  
+}
+
+select {
+    border: 0;
+    width: 520px;
+    padding: 10px;
+    font-size: 20px;
+    height: 46px;
+    color: grey;
+
+}
+
+h2 {
+
+    text-align: center;
+    width: auto;
+    padding: 10px;
+    font-size: 30px;
+    color:#ffffff;
+
+
+}
+
+table {
+    
+    margin: 0 auto;
+    padding: 20px;
+
+    
+}
+
+tr {
+    font-size: 18px;
+    color:#ffffff;
+    width: 520px;
+    height: 35px;
+
+}
+
+th {
+    border: solid black 1px;
+    font-size: 18px;
+    background-color:#1aa5d1;
+    color:#ffffff;
+    border-radius: 2px;
+
+}
+
+td {
+    border: solid black 1px;
+}
+    
+    
