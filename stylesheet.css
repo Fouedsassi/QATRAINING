@@ -1,16 +1,17 @@
 body {
     text-align: center;
-    background: url("http://www.wallbacks.com/walls/blur-wallpaper-hd-wide.jpg");
+    background: url("https://static.pexels.com/photos/26408/pexels-photo-26408.jpg");
     background-position: center;
-    background-size: auto;
+    background-size: 100%;
  }
 
 p {
     text-align: center;
     width: auto;
-    padding: 10px;
+    padding: 50px;
     font-size: 40px;
     color:#ffffff;
+    text-shadow: 2px 2px #000000;
 
 }
 
